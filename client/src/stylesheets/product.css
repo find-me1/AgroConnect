@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(166, 220, 220);
+}
+.productcontainer {
+  z-index: index -1;
+  transform: translate(90%, 20%);
+  background-color: whitesmoke;
+  margin-right: 60%;
+  margin-left: 10%;
+  display: flex;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.productcontainer h1 {
+  font-size: 30px;
+  color: black;
+  padding: 7px;
+}
+#desc {
+  color: black;
+  font-size: 15px;
+}
+form button[type="submit"] {
+  cursor: pointer;
+  padding: 4px;
+  background-color: rgb(3, 127, 3);
+  color: white;
+  font-size: large;
+  border-radius: 7px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s ease-in-out;
+}
+button[type="submit"]:hover {
+  transform: scale(1.05);
+  background-color: rgb(18, 136, 18);
+}
+
+#list,
+#productname,
+#productprice,
+#instock,
+#availableunits {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  letter-spacing: 1px;
+}
+#description {
+  width: 400px;
+  height: 80%;
+  font-size: 20px;
+  resize: none;
+}
+.averagerating,
+.ratingcount {
+  transform: translate(40%, -30px);
+}

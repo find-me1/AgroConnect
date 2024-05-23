@@ -1,0 +1,80 @@
+.pcontainer {
+  z-index: index -1;
+  transform: translate(0%, 20rem);
+}
+.pcontainer h1 {
+  transform: translate(40rem, -80px);
+  font-size: 30px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.pcontainer p {
+  font-size: 15px;
+  color: black;
+}
+.custprofile {
+  transform: translate(-30%, -14rem);
+}
+.custprofile h2,
+h3 {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 6px;
+  font-weight: bold;
+}
+.productslist h4 {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  transform: translateY(-4rem);
+  color: black;
+}
+.productslist {
+  margin-top: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  transform: translateY(-10rem);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 13px;
+}
+td {
+  color: rgb(3, 3, 0);
+  font-weight: bold;
+  transform: translateX(15%);
+}
+
+th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.actions {
+  margin-top: 20px;
+  transform: translateX(85%);
+}

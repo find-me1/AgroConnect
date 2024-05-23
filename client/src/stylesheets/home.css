@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(166, 220, 220);
+}
+.box {
+  height: 130px;
+  width: 230px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.box:hover {
+  transform: scale(1.08);
+}
+.box img {
+  height: 50px;
+}
+.box .text {
+  color: white;
+}
+.topic {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.topic-heading {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.box.box2 {
+  background-color: #3f0097;
+}
+.homecontainer {
+  z-index: index -1;
+  transform: translate(37%, 40%);
+}
+.homecontainer h1 {
+  transform: translateY(-80px);
+  font-size: 40px;
+  color: black;
+}
+.homecontainer p {
+  font-size: 15px;
+  color: black;
+}
+#desc {
+  color: black;
+  font-size: 15px;
+}
+form button[type="submit"] {
+  cursor: pointer;
+  padding: 4px;
+  background-color: rgb(3, 127, 3);
+  color: white;
+  font-size: large;
+  border-radius: 7px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s ease-in-out;
+}
+button[type="submit"]:hover {
+  transform: scale(1.05);
+  background-color: rgb(18, 136, 18);
+}
+#description {
+  width: 400px;
+  height: 80%;
+  font-size: 20px;
+  resize: none;
+}
+.averagerating,
+.ratingcount {
+  transform: translate(40%, -30px);
+}

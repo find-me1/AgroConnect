@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  overflow-x: hidden;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(127, 128, 171);
+  font-weight: 400;
+  background-color: aliceblue;
+  min-height: 100vh;
+  padding: 3.2rem;
+  padding-bottom: 6rem;
+}
+
+.navbar {
+  z-index: 100;
+  display: flex;
+  position: fixed;
+  margin-top: -35px;
+  margin-left: -32px;
+  width: 100%;
+  height: 110px;
+  background-color: #c2a267;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.4s;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.1rem;
+  font-family: cursive;
+}
+.navbar ul li a:hover {
+  color: red;
+}
+.navbarmain {
+  transform: translateX(170%);
+}
+.navbar.active {
+  background-color: #bc8827;
+  z-index: 1;
+}
+.agromain {
+  margin-top: 75px;
+  margin-left: -3%;
+  width: 110%;
+  height: 605px;
+}
+.overimage {
+  z-index: 0;
+  transform: translate(15%, -850%);
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Aileron;
+  font-weight: 1000px;
+}
+.overh1 {
+  z-index: 0;
+  transform: translate(15%, -2100%);
+  font-size: 20px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.twologins {
+  display: flex;
+  gap: 5rem;
+  background-color: aliceblue;
+  height: 70vh;
+  padding: 10px;
+  border-radius: 10px;
+}
+.farmerlogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: radial-gradient(
+    at top left,
+    #eaf3f9 0%,
+    rgba(200, 212, 218, 0.8) 70%,
+    rgba(188, 228, 249, 0.5) 100%
+  );
+}
+.farmerlogin h1 {
+  font-size: 40px;
+  font-weight: 30;
+  color: rgb(127, 128, 171);
+  background: linear-gradient(to right, rgb(127, 128, 171), #068932);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+}
+.farmerlogin p {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: lighter;
+  color: black;
+}
+.customerlogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.customerlogin h1 {
+  font-size: 40px;
+  font-weight: 30;
+  color: rgb(127, 128, 171);
+  background: linear-gradient(to right, rgb(127, 128, 171), #068932);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+}
+.customerlogin p {
+  font-size: 20px;
+  color: black;
+}
+.footer {
+  background-color: #bc8827;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 110%;
+  margin-left: -40px;
+  transform: translateY(60px);
+  position: static;
+}
+.two-line-text {
+  text-align: center;
+  line-height: 1.5;
+}
+.two-line-text p {
+  font-size: 18px;
+  font-weight: 10px;
+}
+.middle-line {
+  display: inline-block;
+  vertical-align: middle;
+}
+.custom-button {
+  text-decoration: none;
+  border: 1px solid #1ba94c;
+  border-radius: 4px;
+  text-align: center;
+  min-width: 185px;
+  padding: 13px 0;
+  color: #fff;
+  background: #068932;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.custom-button:hover {
+  background-color: #046218;
+}
